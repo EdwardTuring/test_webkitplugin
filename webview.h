@@ -7,7 +7,7 @@ class Webview : public QWebView
 {
     Q_OBJECT
 public:
-    explicit Webview(QObject *parent = 0);
+    explicit Webview(QWidget *parent = 0);
     
 signals:
     

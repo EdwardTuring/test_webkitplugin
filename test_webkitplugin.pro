@@ -1,4 +1,7 @@
-QT +=webkit gui core
+QT    += gui core webkit
+TARGET = test_gui
+TEMPLATE = app
+
 
 HEADERS += \
     webpluginfactory.h \
