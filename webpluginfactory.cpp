@@ -1,5 +1,5 @@
 #include "webpluginfactory.h"
 
-WebPluginFactory::WebPluginFactory()
+WebPluginFactory::WebPluginFactory(QObject *parent)
 {
 }

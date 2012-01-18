@@ -1,10 +1,10 @@
 #ifndef WEBPLUGINFACTORY_H
 #define WEBPLUGINFACTORY_H
-#include <QwebPluginFactory>
-class WebPluginFactory : public QwebPluginFactory
+#include <QWebPluginFactory>
+class WebPluginFactory : public QWebPluginFactory
 {
 public:
-    WebPluginFactory();
+    WebPluginFactory(QObject * parent = 0);
 };
 
 #endif // WEBPLUGINFACTORY_H

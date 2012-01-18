@@ -1,7 +1,10 @@
-QT +=webkit
+QT +=webkit gui core
 
 HEADERS += \
-    webpluginfactory.h
+    webpluginfactory.h \
+    webview.h
 
 SOURCES += \
-    webpluginfactory.cpp
+    webpluginfactory.cpp \
+    webview.cpp \
+    main.cpp
