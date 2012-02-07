@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/cdtoparent.png</file>
+        <file>image/dir.png</file>
+        <file>image/file.png</file>
+    </qresource>
+</RCC>

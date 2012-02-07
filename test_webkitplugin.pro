@@ -1,13 +1,20 @@
-QT    += gui core webkit
-TARGET = test_gui
+QT    += gui core webkit network
+TARGET = ftp_plug-in
 TEMPLATE = app
 
 
 HEADERS += \
     webpluginfactory.h \
-    webview.h
+    webview.h \
+    ftpwindow.h
 
 SOURCES += \
     webpluginfactory.cpp \
     webview.cpp \
-    main.cpp
+    main.cpp \
+    ftpwindow.cpp
+
+FORMS +=
+
+RESOURCES += \
+    test_plugin.qrc

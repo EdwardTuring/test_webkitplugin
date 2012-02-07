@@ -1,5 +1,5 @@
 #include "webpluginfactory.h"
-#include <QTextEdit>
+#include "ftpwindow.h"
 #include <QtCore>
 WebPluginFactory::WebPluginFactory(QObject *parent)
 {
@@ -16,7 +16,7 @@ WebPluginFactory::WebPluginFactory(QObject *parent)
      if(QString::compare(mimeType,"UI_App/textedit",Qt::CaseInsensitive)==0){
 
             qDebug()<<"works";
-         return new QTextEdit(qobject_cast<QWidget *>(this->parent()));
+         return new FtpWindow(qobject_cast<QWidget *>(this->parent()));
 
      }
     return NULL;
